@@ -1,0 +1,1 @@
+mklink /H %HOMEPATH%\.vsvimrc .\VS\.vsvimrc

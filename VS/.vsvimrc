@@ -1,3 +1,5 @@
+:set number
+:set relativenumber
 nmap <C-s> <Esc>:w<CR>
 imap <C-s> <Esc>:w<CR>
 nmap <Space>fe :vsc View.SolutionExplorer<CR>
