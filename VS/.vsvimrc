@@ -1,5 +1,7 @@
-:set number
-:set relativenumber
+set number
+set relativenumber
+set clipboard+=unnamed
+
 nmap <C-s> <Esc>:w<CR>
 imap <C-s> <Esc>:w<CR>
 nmap <Space>fe :vsc View.SolutionExplorer<CR>
@@ -22,6 +24,7 @@ nmap <Space>bX :vsc File.CloseAllDocuments<CR>
 nmap <Space>bh :split<CR>
 nmap <Space>bv :vsplit<CR>
 nmap <Space>gc :vsc View.GitWindow<CR>
+nmap <Space>gs :vsc View.GitWindow<CR>
 nmap <Space>dh :vsc Edit.QuickInfo<CR>
 nmap <Space>db :vsc Build.BuildSolution<CR>
 nmap <Space>dx :vsc Debug.StartWithoutDebugging<CR>
@@ -44,8 +47,11 @@ nmap <Space>aa :vsc View.QuickActions<CR>
 nmap <Space>au :vsc Edit.SortUsings<CR>
 
 nmap ,x :vsc Window.NextTab<CR>
+nmap ,w :vsc Window.NextTab<CR>
 nmap ,z :vsc Window.PreviousTab<CR>
+nmap ,q :vsc Window.PreviousTab<CR>
 nmap ,c :vsc File.Close<CR>
+nmap ,e :vsc File.Close<CR>
 nmap ,<Space> :noh<CR>
 nmap ,h :vsc Window.SplitWindowHorizontally<CR>
 nmap ,v :vsc Window.SplitWindowVertically<CR>
