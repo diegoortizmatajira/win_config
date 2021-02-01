@@ -64,7 +64,7 @@ nmap <space>av :action $Paste<CR>
 nmap <space>as :action $SelectAll<CR>
 
 " GIT
-nmap <space>gs :action <CR>
+nmap <space>gs :action ActivateCommitToolWindow<CR>
 nmap <space>gc :action ActivateCommitToolWindow<CR>
 nmap <space>gb :action Git.Branches<CR>
 nmap <space>ga :action Git.Add<CR>
@@ -119,6 +119,6 @@ nmap <space>td :action RiderUnitTestDebugContextAction<CR>
 nmap <space>tr :action RiderUnitTestRepeatPreviousRunAction<CR>
 
 " Commentary workaround
-nmap gcc :action CommentByLineComment<CR><Up>
-vmap gc :action CommentByLineComment<CR><Up>
+nmap gcc :action CommentByLineComment<CR>
+vmap gc :action CommentByLineComment<CR>
 
