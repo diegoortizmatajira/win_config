@@ -1,6 +1,6 @@
 set number
 set relativenumber
-set clipboard+=unnamed
+set clipboard=unnamed
 
 nmap <C-s> <Esc>:w<CR>
 imap <C-s> <Esc>:w<CR>
